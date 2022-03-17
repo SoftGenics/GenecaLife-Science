@@ -1,0 +1,116 @@
+
+.hero-container {
+    background: url('/public/images/farm.jpg') center center/cover no-repeat; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    animation: changeBackgroundImage 13s infinite;
+    overflow: hidden;
+    align-items: center;
+    
+   
+  }
+  @keyframes changeBackgroundImage {
+    20% {
+      background: url('/public/images/farm.jpg') center center/cover no-repeat;
+    }
+  
+    40% {
+      background: url('/public/images/farm1.jpg');
+    }
+    60% {
+      background: url('/public/images/farm2.jpg' ) center center/cover no-repeat;
+    }
+    80% {
+        background: url('/public/images/farm3.jpg');
+      }
+      100% {
+        background: url('/public/images/farm4.jpg');
+      }
+  
+
+  }
+ 
+  .hero-btns {
+    display: flex !important;
+    text-decoration: none;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center ;
+    margin-top: 20rem;
+    
+  }
+
+  .hero-btns  > button {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(212, 115, 144);
+    height: 10vh;
+    width: 12rem;
+    border: none;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+    font-weight: 600;
+    display: block;
+  }
+  .hero-btns  > button a {
+    text-decoration: none;
+    color: white;
+  }
+  .hero-btns > button:hover{
+    transform: scale(0.9);
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container  {
+      font-size: 70px;
+      align-items: center;
+    
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container  img  {
+      margin-top: 6rem;
+      margin-right: 0px;
+      width: 350px;
+      height: 150px;
+
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 0px;
+    }
+    .hero-container > h3 {
+      margin-bottom: 6rem;
+      margin-right: 0px;
+    }
+    .hero-container > span {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .hero-btns {
+      display: block;
+      text-decoration: none;
+      margin-right: 0rem !important;
+      text-align: center;
+    
+    }
+  
+    .hero-btns {
+      width: 80%;
+    }
+  }
+  

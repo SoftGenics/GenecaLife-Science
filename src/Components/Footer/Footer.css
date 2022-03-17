@@ -1,0 +1,42 @@
+.footer{
+    background-color: rgb(241, 245, 241)!important;
+    opacity: 0.9;
+    color:  rgb(59, 59, 59)!important;
+    margin-bottom: -1.5rem;
+    
+
+}
+    .footer .links ul{
+      list-style-type: none;
+      }
+      li a{
+        color:rgb(59, 59, 59);
+        transition: color .2s;
+      }
+        li a:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+    
+    .about-company p{
+      color:rgb(59, 59, 59);
+    }
+    .about-company i{
+     font-size: 25px;
+     color: white;
+    }
+     .about-company i a{
+        color:white;
+        transition: color .2s;
+     }
+        .about-company i a:hover{
+            color:#4180CB
+      }
+   
+    .location i{
+    font-size: 18px;
+    }
+    .copyright p{
+      color: rgb(59, 59, 59);;
+        border-top:1px solid rgba(255,255,255,.1);
+  }

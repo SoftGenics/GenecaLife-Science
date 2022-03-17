@@ -1,0 +1,57 @@
+.about-container {
+    margin-top: 5rem !important;
+    padding: 1rem;
+
+}
+.about-card-wraper {
+    display: flex;
+    justify-content: space-around;
+    background:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about-card-wraper .card {
+
+    overflow: hidden;
+    border: none !important;
+}
+.about-card-wraper .card-img-top {
+    height: 40vh !important;
+    transition: all 0.4s ease 0s;
+    transform: scale(0.9);
+}
+.about-card-wraper .card-img-top:hover {
+    transform: scale(1.0) !important;
+}
+.about-card-wraper .card p {
+ font-weight: 700;
+ line-height: 18px;
+ font-size: 16px;
+}
+.about-card-wraper .about-icon {
+    font-size: 28px;
+    display: inline-flex;
+}
+.about-card-wraper .about-icon p {
+    font-size: 16px;
+}
+.about-icon .fa-business-time {
+    color: purple;
+    background-color: rgb(224, 221, 221);
+    padding: 17px;
+    border-radius: 50%;
+}
+.about-icon .fa-calendar{
+    color: rgb(250, 40, 25);
+    background-color: rgb(224, 221, 221);
+    padding: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.about-icon .fa-address-card{
+    color: rgb(102, 101, 102);
+    background-color: rgb(224, 221, 221);
+    padding: 19px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
