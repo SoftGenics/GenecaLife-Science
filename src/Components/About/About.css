@@ -37,21 +37,15 @@
 }
 .about-icon .fa-business-time {
     color: purple;
-    background-color: rgb(224, 221, 221);
-    padding: 17px;
     border-radius: 50%;
 }
 .about-icon .fa-calendar{
     color: rgb(250, 40, 25);
-    background-color: rgb(224, 221, 221);
-    padding: 20px;
     border-radius: 50%;
     margin-left: 10px;
 }
 .about-icon .fa-address-card{
     color: rgb(102, 101, 102);
-    background-color: rgb(224, 221, 221);
-    padding: 19px;
     border-radius: 50%;
     margin-left: 5px;
 }
