@@ -4,7 +4,7 @@ function HeroSection() {
   return (
 <div className='hero-container'>
     <div className='hero-btns'>
-        <button><a href="#product">CONTACT US</a></button>
+        <button><a href="#product">EXPLORE MORE</a></button>
     </div>
     </div>
  )
