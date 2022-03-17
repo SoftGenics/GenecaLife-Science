@@ -26,9 +26,9 @@ function Footer() {
       <h4 className="mt-lg-0 mt-sm-4">Contact Details</h4>
       <p><i class="fas fa-user"></i>&nbsp;Archit Karnawat (General Manager)</p>
       <p><i class="fas fa-map-marker-alt"></i>&nbsp;12/3, Old Palasia, Prahlad Nagar, Indore-452010, Madhya Pradesh, India</p>
-      <p className="mb-0"><i className="fa fa-phone mr-3"></i><a href="tel:+919098093555">&nbsp;+91 9098093555</a></p>
+      <p className="mb-0"><i className="fa fa-phone mr-3"></i><a href="tel:+919098093555" style={{textDecoration:'none', color:' rgb(59, 59, 59)'}}>&nbsp;+91 9098093555</a></p>
       <br></br>
-      <p><i className="fas fa-envelope mr-3"></i>&nbsp;genecalifescience@gmail.com</p>
+      <p><i className="fas fa-envelope mr-3"></i>&nbsp;<a href="mailto:genecalifescience@gmail.com" style={{textDecoration:'none', color:' rgb(59, 59, 59)'}}>genecalifescience@gmail.com</a></p>
     </div>
   </div>
   <div className="row mt-5">
